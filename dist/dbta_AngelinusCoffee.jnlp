@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="dbta_AngelinusCoffee.jnlp">
+  <information>
+    <title>dbta_AngelinusCoffee</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="dbta_AngelinusCoffee.jar" size="7160" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="dbta_AngelinusCoffee" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="dbta_angelinuscoffee.Dbta_AngelinusCoffee"  name="dbta_AngelinusCoffee" />
+  <update check="always"/>
+</jnlp>
